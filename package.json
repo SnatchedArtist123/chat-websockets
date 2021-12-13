@@ -1,0 +1,42 @@
+{
+  "name": "websockets",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "ansi-align": "^3.0.1",
+    "anymatch": "^3.1.2",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "minimist": "^1.2.5",
+    "nodemon": "^2.0.15",
+    "nopt": "^1.0.10",
+    "normalize-path": "^3.0.0",
+    "normalize-url": "^4.5.1",
+    "p-cancelable": "^1.1.0",
+    "picomatch": "^2.3.0",
+    "prepend-http": "^2.0.0",
+    "pupa": "^2.1.1",
+    "rc": "^1.2.8",
+    "readdirp": "^3.6.0",
+    "registry-auth-token": "^4.2.1",
+    "registry-url": "^5.1.0",
+    "responselike": "^1.0.2",
+    "semver-diff": "^3.1.1",
+    "signal-exit": "^3.0.6",
+    "socket.io": "^4.4.0",
+    "string-width": "^4.2.3",
+    "strip-ansi": "^6.0.1",
+    "strip-json-comments": "^2.0.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js",
+    "hbs": "nodemon indexHandlebar.js",
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
